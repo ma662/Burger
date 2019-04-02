@@ -1,9 +1,30 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  /* background: #faebd7; */
+  color: rgb(238, 191, 61);
 }
 
+body {
+  overflow: hidden;
+}
+
+video {
+  overflow: hidden;
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container-fluid {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgba(105, 11, 11, 0.473);
+  width: 75%;
+  padding: 2%;
+  color: whitesmoke;
+}
 .label {
   font-weight: bold;
 }
@@ -17,3 +38,6 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+h2 {
+  color: rgb(238, 191, 61);
